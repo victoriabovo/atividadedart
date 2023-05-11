@@ -6,5 +6,8 @@ void main() {
     43: "Ivaiporã",
   };
   print(codigo[11]);
-  print (codigo.length); 
+  print(codigo.length);
+  codigo[61] = "brasilia";
+  print(codigo.length);
+
 }
