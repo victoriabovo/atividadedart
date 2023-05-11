@@ -6,4 +6,5 @@ void main() {
     43: "Ivaiporã",
   };
   print(codigo[11]);
+  print (codigo.length); 
 }
