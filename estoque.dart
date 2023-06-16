@@ -5,10 +5,10 @@ class Produto {
 
   Produto(this.nome, this.quantidade, this.preco);
 
-  void adicionarEstoque(int quantidade) {
-    this.quantidade += quantidade;
-  }
+  //this.quantidade += quantidade;
+}
 
+/*
   void removerEstoque(int quantidade) {
     if (quantidade <= this.quantidade) {
       this.quantidade -= quantidade;
@@ -23,8 +23,9 @@ class Produto {
     print("Preço unitário: R\$ $preco");
   }
 }
-
+*/
 void main() {
+  /*
   Produto produto1 = Produto("Celular", 10, 1500.00);
   produto1.adicionarEstoque(5);
   produto1.exibirProduto();
@@ -32,4 +33,5 @@ void main() {
   Produto produto2 = Produto("Notebook", 5, 3000.00);
   produto2.removerEstoque(3);
   produto2.exibirProduto();
+  */
 }
